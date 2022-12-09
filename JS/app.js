@@ -78,7 +78,7 @@ function getImages(){
     $.each( data, function( key, val ) {
 
         items.push( "<hr />" );
-        items.push("<video src='"+ BLOB_ACCOUNT + val["filePath"] +"' width=this.videoWidth height=this.videoHeight controls></video><br />")
+        items.push("<video src='"+ BLOB_ACCOUNT + val["filePath"] +"' width='300' height='210' controls></video><br />")
         items.push("File: " + val["fileName"] + "<br />");
         items.push("Title: " + val["title"] + "<br />")
         items.push("Publisher: " + val["publisher"] + "<br />")
